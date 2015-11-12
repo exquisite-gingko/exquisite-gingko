@@ -59,13 +59,9 @@ module.exports = function(config) {
 
     // Start these browsers, currently available:
     // - Chrome
-    // - ChromeCanary
-    // - Firefox
-    // - Opera
-    // - Safari (only Mac)
-    // - PhantomJS
-    // - IE (only Windows)
-    browsers: ['PhantomJS'],
+
+    // Removing the PhantomJS in order to fix bug with launcher
+    browsers: ['Chrome'],
 
 
     // Continuous Integration mode
